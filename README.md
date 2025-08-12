@@ -7,7 +7,7 @@ St. Petersburg State University Certification Exam
 
 ## Сборка и запуск
 
-1. Для сборки без Docker
+### 1. Для сборки без Docker
 ```bash
 mkdir build
 cd build
@@ -15,4 +15,12 @@ cmake ..
 make
 ./examples/example2
 ```
+
+### 2. Для сборки с Docker
+
+```bash
+docker build -t parallel-sort .
+docker run --rm -it parallel-sort
+```
+
 
