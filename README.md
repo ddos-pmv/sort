@@ -7,3 +7,12 @@ St. Petersburg State University Certification Exam
 
 ## Сборка и запуск
 
+1. Для сборки без Docker
+```bash
+mkdir build
+cd build
+cmake ..
+make
+./examples/example2
+```
+
